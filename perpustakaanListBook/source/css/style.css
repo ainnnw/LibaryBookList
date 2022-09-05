@@ -1,0 +1,209 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body, input, button {
+   font-family: 'Open Sans', sans-serif;
+}
+
+input, button {
+   font-size: 16px;
+}
+
+.head_bar {
+   width: 100%;
+   height: auto;
+   padding: 12px;
+   display: flex;
+   align-items: center;
+   justify-content: left;
+   background-color: rgb(255, 255, 255);
+   color: rgb(202, 141, 18);
+   box-shadow: 0 2px 3px 0 rgb(202, 141, 18);
+   position: fixed;
+   z-index: 1;
+
+}
+
+.head_bar img{
+   width: 50px;
+   height: 50px;
+   margin-left: 5%;
+}
+.head_bar h1{
+   margin-left: 30%;
+   font-weight: 500;
+}
+
+main {
+   margin-left: 15%;
+   width: 70%;
+   padding: 16px;
+}
+
+.layout{
+   flex-grow: 2;
+   padding: 0 12px;
+   flex-direction: row;
+   padding-bottom: 20px;
+}
+.countainer1{
+   border: 2px solid black;
+   margin: 10px,10px;
+   font-family: 'Acme', sans-serif;
+   border-radius: 2%;
+   padding: 20px 0px;
+   margin-top: 90px;
+}
+.input_section {
+   display: flex;
+   flex-direction: column;
+   padding: 16px;
+   border: 1px solid black;
+   border-radius: 10px;
+}
+
+.input_section > h2 {
+   text-align: center;
+   color: rgb(214, 170, 38);
+}
+
+.input_section > form > .input {
+   margin: 8px 0;
+}
+
+.input_section > form > button {
+   background-color: rgb(214, 170, 38);
+   color: white;
+   border: 0;
+   border-radius: 5px;
+   display: block;
+   width: 100%;
+   padding: 8px;
+   cursor: pointer;
+}
+
+.input_section > form > button > span {
+   font-weight: bold;
+}
+
+.input_section > form > .input > input {
+   display: block;
+   width: 100%;
+   padding: 8px;
+   border-radius: 5px;
+}
+
+
+
+.input_section > form > .input > label {
+   color: rgb(214, 170, 38);
+   font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+   margin: 12px 0;
+   display: flex;
+   align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+   color: rgb(214, 170, 38);;
+   font-weight: bold;
+   margin-right: 10px;
+}
+.countainer{
+   border: 1px solid black;
+   margin: 10px,10px;
+   font-family: 'Acme', sans-serif;
+   border-radius: 2%;
+   margin-top: 20px;
+   display: flexbox;
+   flex-direction: column;
+}
+.rakbuku h1{
+   color: rgb(214, 170, 38);;
+   text-align: center;
+   font-weight: 500;
+}
+.rakbuku{
+   flex-grow: 2;
+   padding: 0 12px;
+   flex-direction: column;
+}
+.book_shelf {
+   margin: 0 0 12px 0;
+   border: 1px solid black;
+   padding: 16px;
+   border-radius: 10px;
+   flex-direction: column;
+   display: flexbox;
+   flex-grow: 0;
+}
+
+.book_shelf > h2 {
+   color: rgb(214, 170, 38);;
+}
+
+.book_shelf > .book_list {
+   padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+   padding: 8px 16px 16px 16px;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: 15px 0;
+
+}
+
+.book_shelf > .book_list > .book_item > h3, p {
+   margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button {
+   border: 0;
+   padding: 7px;
+   margin-top: -25px;
+   border-radius: 5px;
+   cursor: pointer;
+   float: right;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green {
+   background-color: rgb(112, 234, 112);
+   color: white;
+   
+  
+}
+
+.book_shelf > .book_list > .book_item > .action > .red {
+   background-color: rgb(249, 0, 0);
+   color: white;
+   margin-right:15px;
+}
+footer{
+   margin-top: 50px;
+   height: 150px;
+   width: 100%;
+   background-color: rgb(225, 219, 219);
+   justify-content: center;
+
+}
+footer p{
+   color:rgb(0, 0, 0);
+   text-align: center;
+   padding-top:20px;
+   font-family: 'Bakbak One', cursive;
+
+}
+footer img{
+width: 25px;
+height: 25px;
+margin-right: 10px;
+}
+footer span{
+margin-left: 46.5%;
+}
